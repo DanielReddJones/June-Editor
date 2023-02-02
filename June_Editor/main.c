@@ -10,14 +10,23 @@ Purpose: Text editor written in C. Part of a course "How to make your own text e
 #include <stdio.h>
 #include <stdlib.h>
 
+
+void license(){
+    printf("June Editor  Copyright (C) 2023  Daniel Jones\
+    \nThis program comes with ABSOLUTELY NO WARRANTY;\
+    \nThis is free software, and you are welcome to redistribute\
+    \nit under certain conditions; For more details, read the license file\
+    \nthat came with this program.\n");
+
+		
+
+
+}
+
+
 int main()
 {
-    printf("June Editor  Copyright (C) 2023  Daniel Jones\
-    \nThis program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.\
-    \nThis is free software, and you are welcome to redistribute it\
-    \nunder certain conditions; type `show c' for details.\n");
-    
-    
+    license();
     
     return 0;
 }
